@@ -3,7 +3,7 @@ import React from "react";
 const FetchNews = () => {
   return (
     <div>
-      <button> FetchNews</button>
+      <button className="btn btn-primary"> FetchNews</button>
     </div>
   );
 };
