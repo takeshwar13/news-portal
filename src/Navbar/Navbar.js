@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -7,49 +8,85 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link text-white" href="#" aria-current="page">
+              <Link
+                className="nav-link text-white"
+                to="/home"
+                aria-current="page"
+              >
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link text-white" href="#" aria-current="page">
+              <Link
+                className="nav-link text-white"
+                href="#"
+                aria-current="page"
+              >
                 General
-              </a>
+              </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link text-white" href="#" aria-current="page">
+              <Link
+                className="nav-link text-white"
+                href="#"
+                aria-current="page"
+              >
                 Buisness
-              </a>
+              </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link text-white" href="#" aria-current="page">
+              <Link
+                className="nav-link text-white"
+                href="#"
+                aria-current="page"
+              >
                 Sports
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#" aria-current="page">
+              <Link
+                className="nav-link text-white"
+                href="#"
+                aria-current="page"
+              >
                 Entertenment
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#" aria-current="page">
+              <Link
+                className="nav-link text-white"
+                href="#"
+                aria-current="page"
+              >
                 Bollywood
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#" aria-current="page">
+              <Link
+                className="nav-link text-white"
+                href="#"
+                aria-current="page"
+              >
                 Cricket
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#" aria-current="page">
+              <Link
+                className="nav-link text-white"
+                href="#"
+                aria-current="page"
+              >
                 Helth
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#" aria-current="page">
+              <Link
+                className="nav-link text-white"
+                href="#"
+                aria-current="page"
+              >
                 Technology
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
