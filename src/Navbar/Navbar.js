@@ -17,74 +17,42 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item active">
-              <Link
-                className="nav-link text-white"
-                href="#"
-                aria-current="page"
-              >
+              <Link className="nav-link text-white" to="#" aria-current="page">
                 General
               </Link>
             </li>
             <li className="nav-item active">
-              <Link
-                className="nav-link text-white"
-                href="#"
-                aria-current="page"
-              >
+              <Link className="nav-link text-white" to="#" aria-current="page">
                 Buisness
               </Link>
             </li>
             <li className="nav-item active">
-              <Link
-                className="nav-link text-white"
-                href="#"
-                aria-current="page"
-              >
+              <Link className="nav-link text-white" to="#" aria-current="page">
                 Sports
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link text-white"
-                href="#"
-                aria-current="page"
-              >
+              <Link className="nav-link text-white" to="#" aria-current="page">
                 Entertenment
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link text-white"
-                href="#"
-                aria-current="page"
-              >
+              <Link className="nav-link text-white" to="#" aria-current="page">
                 Bollywood
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link text-white"
-                href="#"
-                aria-current="page"
-              >
+              <Link className="nav-link text-white" to="#" aria-current="page">
                 Cricket
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link text-white"
-                href="#"
-                aria-current="page"
-              >
+              <Link className="nav-link text-white" to="#" aria-current="page">
                 Helth
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link text-white"
-                href="#"
-                aria-current="page"
-              >
+              <Link className="nav-link text-white" to="#" aria-current="page">
                 Technology
               </Link>
             </li>
