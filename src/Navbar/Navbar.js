@@ -17,7 +17,11 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item active">
-              <Link className="nav-link text-white" to="#" aria-current="page">
+              <Link
+                className="nav-link text-white"
+                to="/general"
+                aria-current="page"
+              >
                 General
               </Link>
             </li>
