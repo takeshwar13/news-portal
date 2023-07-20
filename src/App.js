@@ -6,8 +6,8 @@ import General from "./Pages/General";
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Navbar />} />
         <Route path="/home" element={<Home />} />
         <Route path="/general" element={<General general="General News " />} />
       </Routes>
