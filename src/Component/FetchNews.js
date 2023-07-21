@@ -24,7 +24,7 @@ const FetchNews = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container my-3">
         <div className="row">
           {news.map((value, index) => {
             return (
@@ -34,7 +34,7 @@ const FetchNews = () => {
                   <div className="key">{value.index}</div>
                   <h5 class="card-title ">{value.title}</h5>
                   <p class="card-text">{value.description}</p>
-                  <a href={value.url} class="btn btn-primary">
+                  <a href={value.url} class="btn btn-primary" target="blank">
                     To know More
                   </a>
                 </div>
