@@ -28,15 +28,17 @@ const FetchNews = () => {
         <div className="row">
           {news.map((value, index) => {
             return (
-              <div class="card" style={{ width: "18rem" }}>
-                <img src={value.urlToImage} class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <div className="key">{value.index}</div>
-                  <h5 class="card-title ">{value.title}</h5>
-                  <p class="card-text">{value.description}</p>
-                  <a href={value.url} class="btn btn-primary" target="blank">
-                    To know More
-                  </a>
+              <div className="col-4">
+                <div class="card" style={{ width: "18rem" }}>
+                  <img src={value.urlToImage} class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <div className="key">{value.index}</div>
+                    <h5 class="card-title ">{value.title}</h5>
+                    <p class="card-text">{value.description}</p>
+                    <a href={value.url} class="btn btn-primary" target="blank">
+                      To know More
+                    </a>
+                  </div>
                 </div>
               </div>
             );
