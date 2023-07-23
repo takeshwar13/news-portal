@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
 import Home from "./Pages/Home";
-import General from "./Pages/General";
+import FetchNews from "./Component/FetchNews";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/general" element={<General general="General News " />} />
+        <Route path="/general" element={<FetchNews cat="General News " />} />
       </Routes>
     </div>
   );
