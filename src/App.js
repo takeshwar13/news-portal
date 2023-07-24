@@ -9,7 +9,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/general" element={<FetchNews cat="General News " />} />
+        <Route path="/general" element={<FetchNews cat="general" />} />
+        <Route path="/business" element={<FetchNews cat="business" />} />
       </Routes>
     </div>
   );
