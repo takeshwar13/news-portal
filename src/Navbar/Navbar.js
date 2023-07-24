@@ -43,10 +43,10 @@ const Navbar = () => {
               <li className="nav-item active">
                 <Link
                   className="nav-link text-white"
-                  to="#"
+                  to="/business"
                   aria-current="page"
                 >
-                  Buisness
+                  Business
                 </Link>
               </li>
               <li className="nav-item active">
